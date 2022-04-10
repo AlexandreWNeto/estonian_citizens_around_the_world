@@ -1,0 +1,136 @@
+﻿Nimi,Name,iso_alpha,# of Estonian citizens,Continent,Sub-region,Capital,Latitude (capital),Longitude (capital),Distance between Capital and Tallinn (km),Population (2020),GDP PPP per capita,Formerly part of the USSR?,Sovereignty
+Venezuela,Venezuela,VEN,237,Americas,South America,Caracas,10.5,-66.9333,9098,28435943,#N/A,No,Sovereign
+Monaco,Monaco,MCO,28,Europe,Western Europe,Monaco,43.7396,7.4069,2103.1,39244,#N/A,No,Sovereign
+Taiwan (Chn),Taiwan,TWN,12,Asia,Eastern Asia,Taipei,25.0478,121.5319,7996.5,23816775,#N/A,No,Sovereign
+Jersey (Gbr),Jersey,JEY,5,Europe,Northern Europe,Saint Helier,49.1858,-2.11,2059.7,107800,#N/A,No,Not sovereign
+Ühendriikide Hajasaared (Usa),United States Minor Outlying Islands,UMI,5,Oceania,Micronesia,Wake Atoll,19.308552,166.631012,10598.8,300,#N/A,No,Not sovereign
+Liechtenstein,Liechtenstein,LIE,4,Europe,Western Europe,Vaduz,47.1397,9.5219,1692.5,38137,#N/A,No,Sovereign
+Usa Neitsisaared (Usa),United States Virgin Islands,VIR,4,Americas,Caribbean,Charlotte Amalie,18.3419,-64.9332,8241.4,104423,#N/A,No,Not sovereign
+Andorra,Andorra,AND,2,Europe,Southern Europe,Andorra la Vella,42.5,1.5,2463.1,77265,#N/A,No,Sovereign
+Gibraltar (Gbr),Gibraltar,GIB,2,Europe,Southern Europe,Gibraltar,36.1324,-5.3781,3374.8,33691,#N/A,No,Not sovereign
+Mani saar (Gbr),Isle of Man,IMN,2,Europe,Northern Europe,Douglas,54.15,-4.4819,1856.7,85032,#N/A,No,Not sovereign
+Püha Tool (Vatikan),Vatican City,VAT,2,Europe,Southern Europe,Vatican City,41.9033,12.4534,2125.5,809,#N/A,No,Sovereign
+Briti Neitsisaared (Gbr),British Virgin Islands,VGB,1,Americas,Caribbean,Road Town,18.4167,-64.6167,8216.7,30237,#N/A,No,Not sovereign
+Uus-Kaledoonia (Fra),New Caledonia,NCL,1,Oceania,Melanesia,Nouméa,-22.2625,166.4443,14907.7,285491,#N/A,No,Not sovereign
+Süüria,Syria,SYR,1,Asia,Western Asia,Damascus,33.5131,36.2919,3005.2,17500657,#N/A,No,Sovereign
+Ahvenamaa,Åland Islands,ALA,1,Europe,Northern Europe,Mariehamn,60.0986,19.9444,279.1,30129,#N/A,No,Not sovereign
+Antarktis,Antarctica,ATA,1,Antarctica,Antarctica,N/A,-75.250973,-0.071389,15251.9,4877,#N/A,No,Not sovereign
+Réunion (Fra),Réunion,REU,1,Africa,Eastern Africa,Saint-Denis,-20.8789,55.4481,9359,895308,#N/A,No,Not sovereign
+Svalbard ja Jan Mayen (Nor),Svalbard and Jan Mayen,SJM,1,Europe,Northern Europe,Longyearbyen,78.2167,15.6333,2114,2939,#N/A,No,Not sovereign
+Wallis ja Futuna (Fra),Wallis and Futuna,WLF,1,Oceania,Polynesia,Mata-Utu,-13.2825,-176.1736,14600.7,11246,#N/A,No,Not sovereign
+Luksemburg,Luxembourg,LUX,280,Europe,Western Europe,Luxembourg,49.6106,6.1328,1613.6,625976,117500.2072,No,Sovereign
+Singapur,Singapore,SGP,33,Asia,South-eastern Asia,Singapore,1.3,103.8,9266.5,5850343,98520.02954,No,Sovereign
+Iirimaa,Ireland,IRL,2469,Europe,Northern Europe,Dublin,53.3497,-6.2603,2002.8,4937796,93180.9454,No,Sovereign
+Katar,Qatar,QAT,8,Asia,Western Asia,Doha,25.3,51.5333,4324.3,2881060,89968.77102,No,Sovereign
+Bermuda (Gbr),Bermuda,BMU,3,Americas,Northern America,Hamilton,32.2942,-64.7839,6936.5,62273,80829.61681,No,Not sovereign
+Šveits,Switzerland,CHE,828,Europe,Western Europe,Bern,46.948,7.4474,1793.5,8654618,71742.5166,No,Sovereign
+Kaimanisaared (Gbr),Cayman Islands,CYM,4,Americas,Caribbean,George Town,19.2866,-81.3744,9040.8,65720,71594.04148,No,Not sovereign
+Araabia Ühendemiraadid,United Arab Emirates,ARE,101,Asia,Western Asia,Abu Dhabi,24.4511,54.3969,4520.3,9890400,66771.49975,No,Sovereign
+Brunei Darussalam,Brunei,BRN,1,Asia,South-eastern Asia,Bandar Seri Begawan,4.9167,114.9167,9546.6,437483,65612.70206,No,Sovereign
+Ameerika Ühendriigid,United States of America,USA,4821,Americas,Northern America,Washington,38.9047,-77.0163,6961.4,331002647,63593.44362,No,Sovereign
+Norra,Norway,NOR,1622,Europe,Northern Europe,Oslo,59.9111,10.7528,785.9,5421242,62644.84574,No,Sovereign
+Macau (Aomen) (Chn),Macao,MAC,1,Asia,Eastern Asia,Macau,22.203,113.545,7829.8,649342,60895.51564,No,Not sovereign
+Taani,Denmark,DNK,867,Europe,Northern Europe,Copenhagen,55.6805,12.5615,836.4,5792203,60229.91477,No,Sovereign
+Holland,Netherlands,NLD,948,Europe,Western Europe,Amsterdam,52.3667,4.8833,1458,17134873,59268.1353,No,Sovereign
+Hongkong (Chn),Hong Kong,HKG,24,Asia,Eastern Asia,Hong Kong,22.3069,114.1831,7855.2,7496988,59234.10859,No,Not sovereign
+Austria,Austria,AUT,373,Europe,Western Europe,Vienna,48.2083,16.3725,1361.7,9006400,55683.84082,No,Sovereign
+Rootsi,Sweden,SWE,5044,Europe,Northern Europe,Stockholm,59.3294,18.0686,378.1,10099270,55037.7239,No,Sovereign
+Saksamaa,Germany,DEU,5592,Europe,Western Europe,Berlin,52.5167,13.3833,1042.2,83783945,54792.06448,No,Sovereign
+Island,Iceland,ISL,66,Europe,Northern Europe,Reykjavík,64.1475,-21.935,2449.1,341250,53622.24501,No,Sovereign
+Austraalia,Australia,AUS,3002,Oceania,Australia and New Zealand,Canberra,-35.2931,149.1269,15238.4,25499881,53329.80833,No,Sovereign
+Belgia,Belgium,BEL,635,Europe,Western Europe,Brussels,50.8353,4.3314,1601.2,11589616,53034.961,No,Sovereign
+Soome,Finland,FIN,54158,Europe,Northern Europe,Helsinki,60.1756,24.9342,82.8,5540718,50506.2859,No,Sovereign
+Kuveit,Kuwait,KWT,4,Asia,Western Asia,Kuwait City,29.375,47.98,3774.9,4270563,47306.98817,No,Sovereign
+Prantsusmaa,France,FRA,1038,Europe,Western Europe,Paris,48.8566,2.3522,1858.1,65273512,46983.04192,No,Sovereign
+Saudi Araabia,Saudi Arabia,SAU,10,Asia,Western Asia,Riyadh,24.65,46.71,4228.3,34813867,46759.65723,No,Sovereign
+Kanada,Canada,CAN,3060,Americas,Northern America,Ottawa,45.4247,-75.695,6307.2,37742157,46611.30901,No,Sovereign
+Suurbritannia,United Kingdom,GBR,9531,Europe,Northern Europe,London,51.5072,-0.1275,1783.3,67886004,46482.86224,No,Sovereign
+Korea Vabariik,South Korea,KOR,13,Asia,Eastern Asia,Seoul,37.56,126.99,7109.1,51269183,45274.45873,No,Sovereign
+Uus-Meremaa,New Zealand,NZL,176,Oceania,Australia and New Zealand,Wellington,-41.2889,174.7772,17129.5,4822233,44491.32491,No,Sovereign
+Bahrein,Bahrain,BHR,5,Asia,Western Asia,Manama,26.225,50.5775,4193.7,1701583,43755.85562,No,Sovereign
+Jaapan,Japan,JPN,98,Asia,Eastern Asia,Tokyo,35.6839,139.7744,7881.6,126476458,42390.37984,No,Sovereign
+Itaalia,Italy,ITA,848,Europe,Southern Europe,Rome,41.8931,12.4828,2125.8,60461828,41828.55404,No,Sovereign
+Malta,Malta,MLT,63,Europe,Southern Europe,Valletta,35.8978,14.5125,2720.1,441539,41740.77039,No,Sovereign
+Tšehhi,Czech Republic,CZE,204,Europe,Eastern Europe,Prague,50.0833,14.4167,1230.2,10708982,41603.98857,No,Sovereign
+Sloveenia,Slovenia,SVN,17,Europe,Southern Europe,Ljubljana,46.05,14.5167,1635.8,2078932,39768.63279,No,Sovereign
+Iisrael,Israel,ISR,840,Asia,Western Asia,Jerusalem,31.7833,35.2167,3172.4,8655541,39481.56878,No,Sovereign
+Küpros,Cyprus,CYP,159,Asia,Western Asia,Nicosia,35.1725,33.365,2770,1207361,39452.86735,No,Sovereign
+Leedu,Lithuania,LTU,273,Europe,Northern Europe,Vilnius,54.6833,25.2833,529.6,2722291,38883.11903,Yes,Sovereign
+Hispaania,Spain,ESP,1086,Europe,Southern Europe,Madrid,40.4167,-3.7167,2893.7,46754783,37765.80134,No,Sovereign
+Poola,Poland,POL,101,Europe,Eastern Europe,Warsaw,52.23,21.0111,834.3,37846605,34240.24736,No,Sovereign
+Portugal,Portugal,PRT,144,Europe,Southern Europe,Lisbon,38.708,-9.139,3312.2,10196707,34148.95293,No,Sovereign
+Ungari,Hungary,HUN,86,Europe,Eastern Europe,Budapest,47.4983,19.0408,1379,9660350,33077.23392,No,Sovereign
+Bahama,Bahamas,BHS,3,Americas,Caribbean,Nassau,25.0667,-77.3333,8276.1,393248,32538.56916,No,Sovereign
+Rumeenia,Romania,ROU,16,Europe,Eastern Europe,Bucharest,44.4,26.0833,1674.5,19237682,32116.48095,No,Sovereign
+Läti,Latvia,LVA,748,Europe,Northern Europe,Riga,56.9475,24.1069,279.4,1886202,31464.48429,Yes,Sovereign
+Slovakkia,Slovakia,SVK,23,Europe,Eastern Europe,Bratislava,48.1447,17.1128,1350,5459643,31356.45828,No,Sovereign
+Omaan,Oman,OMN,4,Asia,Western Asia,Muscat,23.6139,58.5922,4776.6,5106622,31120.29585,No,Sovereign
+Venemaa,Russia,RUS,19197,Europe,Eastern Europe,Moscow,55.7558,37.6178,867.4,145934460,29812.21025,Yes,Sovereign
+Horvaatia,Croatia,HRV,17,Europe,Southern Europe,Zagreb,45.8131,15.9772,1623.2,4105268,28841.71407,No,Sovereign
+Malaisia,Malaysia,MYS,7,Asia,South-eastern Asia,Kuala Lumpur,3.1478,101.6953,8971.4,32365998,27923.68768,No,Sovereign
+Kreeka,Greece,GRC,84,Europe,Southern Europe,Athens,37.9842,23.7281,2386.6,10423056,27909.54449,No,Sovereign
+Türgi,Turkey,TUR,70,Asia,Western Asia,Ankara,39.93,32.85,2242.2,84339067,27235.42583,No,Sovereign
+Panama,Panama,PAN,4,Americas,Central America,Panama City,9,-79.5,9936.7,4314768,26782.48498,No,Sovereign
+Kasahstan,Kazakhstan,KAZ,29,Asia,Central Asia,Nur-Sultan,51.1333,71.4333,3025.9,18776707,26754.377,Yes,Sovereign
+Tšiili,Chile,CHL,7,Americas,South America,Santiago,-33.45,-70.6667,13451.7,19116209,25110.15954,No,Sovereign
+Bulgaaria,Bulgaria,BGR,59,Europe,Eastern Europe,Sofia,42.6979,23.3217,1863.9,6948445,24613.83507,No,Sovereign
+Uruguay,Uruguay,URY,1,Americas,South America,Montevideo,-34.8667,-56.1667,12813.7,3473727,22793.68798,No,Sovereign
+Turks ja Caicos (Gbr),Turks and Caicos Islands,TCA,1,Americas,Caribbean,Grand Turk,21.4664,-71.136,8288.1,38718,22285.79678,No,Not sovereign
+Costa Rica,Costa Rica,CRI,6,Americas,Central America,San José,9.9333,-84.0833,10091.1,5094114,22132.46947,No,Sovereign
+Argentina,Argentina,ARG,181,Americas,South America,Buenos Aires,-34.5997,-58.3819,12902.1,45195777,20770.72642,No,Sovereign
+Valgevene,Belarus,BLR,247,Europe,Eastern Europe,Minsk,53.9022,27.5618,638.9,9449321,20239.20182,Yes,Sovereign
+Montenegro,Montenegro,MNE,3,Europe,Southern Europe,Podgorica,42.4397,19.2661,1927,628062,20029.91111,No,Sovereign
+Serbia,Serbia,SRB,7,Europe,Southern Europe,Belgrade,44.8167,20.4667,1650.9,8737370,19107.2003,No,Sovereign
+Mehhiko,Mexico,MEX,29,Americas,Central America,Mexico City,19.4333,-99.1333,9885.3,128932753,18444.07305,No,Sovereign
+Tai,Thailand,THA,49,Asia,South-eastern Asia,Bangkok,13.75,100.5167,7891.5,69799978,18232.79535,No,Sovereign
+Dominikaani Vabariik,Dominican Republic,DOM,1,Americas,Caribbean,Santo Domingo,18.4764,-69.8933,8503.5,10847904,17935.65607,No,Sovereign
+Hiina,China,CHN,44,Asia,Eastern Asia,Beijing,39.904,116.4075,6365.2,1439323774,17210.76489,No,Sovereign
+Makedoonia,North Macedonia,MKD,1,Europe,Southern Europe,Skopje,41.9833,21.4333,1954.1,2083380,16959.67123,No,Sovereign
+Colombia (Kolumbia),Colombia,COL,10,Americas,South America,Bogotá,4.6126,-74.0705,10061.2,50882884,14931.04685,No,Sovereign
+Brasiilia,Brazil,BRA,632,Americas,South America,Brasília,-15.7939,-47.8828,10570.7,212559409,14835.41493,No,Sovereign
+Gruusia,Georgia,GEO,70,Asia,Western Asia,Tbilisi,41.7225,44.7925,2405.1,3989175,14766.9761,Yes,Sovereign
+Aserbaidžaan,Azerbaijan,AZE,8,Asia,Western Asia,Baku,40.3667,49.8352,2745.7,10139175,14479.70541,Yes,Sovereign
+Albaania,Albania,ALB,5,Europe,Southern Europe,Tirana,41.33,19.82,2042.1,2877800,13439.66528,No,Sovereign
+Lõuna-Aafrika Vabariik,South Africa,ZAF,88,Africa,Southern Africa,Bloemfontein,-29.1,26.2167,9845.8,59308690,13360.57401,No,Sovereign
+Iraan,Iran,IRN,2,Asia,Southern Asia,Tehran,35.7,51.4167,3265.9,83992953,13338.01348,No,Sovereign
+Armeenia,Armenia,ARM,24,Asia,Western Asia,Yerevan,40.1814,44.5144,2546.8,2963234,13312.11386,Yes,Sovereign
+Sri Lanka,Sri Lanka,LKA,1,Asia,Southern Asia,Colombo,6.9167,79.8333,7437.2,21413250,13224.6135,No,Sovereign
+Ukraina,Ukraine,UKR,589,Europe,Eastern Europe,Kyiv,50.45,30.5236,1064.3,43733759,13054.76099,Yes,Sovereign
+Moldova,Moldova,MDA,38,Europe,Eastern Europe,Chisinau,47.0228,28.8353,1406.3,4033963,13000.40159,Yes,Sovereign
+Egiptus,Egypt,EGY,25,Africa,Northern Africa,Cairo,30.0444,31.2358,3304.8,102334403,12607.00395,No,Sovereign
+Liibanon,Lebanon,LBN,6,Asia,Western Asia,Beirut,33.8869,35.5131,2949,6825442,12118.57336,No,Sovereign
+Fidži,Fiji,FJI,2,Oceania,Melanesia,Suva,-18.1333,178.4333,14957.9,896444,12078.84323,No,Sovereign
+Indoneesia,Indonesia,IDN,11,Asia,South-eastern Asia,Jakarta,-6.2146,106.8451,10158.8,273523621,12072.73548,No,Sovereign
+Peruu,Peru,PER,16,Americas,South America,Lima,-12.06,-77.0375,11825.2,32971846,11878.52154,No,Sovereign
+Ecuador,Ecuador,ECU,5,Americas,South America,Quito,-0.22,-78.5125,10773.4,17643060,10895.77218,No,Sovereign
+Jordaania,Jordan,JOR,3,Asia,Western Asia,Amman,31.95,35.9333,3167.8,10203140,10355.00857,No,Sovereign
+Iraak,Iraq,IRQ,4,Asia,Western Asia,Baghdad,33.35,44.4167,3241.5,40222503,9506.725326,No,Sovereign
+Namiibia,Namibia,NAM,2,Africa,Southern Africa,Windhoek,-22.57,17.0836,9145.7,2540916,9298.086814,No,Sovereign
+Svaasimaa,eSwatini,SWZ,1,Africa,Southern Africa,Lobamba,-26.4465,31.2064,9568.3,1160164,8865.740219,No,Sovereign
+Guatemala,Guatemala,GTM,5,Americas,Central America,Guatemala City,14.6099,-90.5252,9962,17915567,8853.670021,No,Sovereign
+Vietnam,Vietnam,VNM,12,Asia,South-eastern Asia,Hanoi,21.0245,105.8412,7507.7,97338583,8650.13347,No,Sovereign
+Filipiinid,Philippines,PHL,13,Asia,South-eastern Asia,Manila,14.6,120.9833,8960.7,109581085,8389.848594,No,Sovereign
+Boliivia,Bolivia,BOL,2,Americas,South America,La Paz,-16.4942,-68.1475,11743.2,11673029,8275.491497,No,Sovereign
+Usbekistan,Uzbekistan,UZB,3,Asia,Central Asia,Tashkent,41.3,69.2667,3645.9,33469199,7734.024495,Yes,Sovereign
+Maroko,Morocco,MAR,3,Africa,Northern Africa,Rabat,34.0253,-6.8361,3644.1,36910558,7369.49263,No,Sovereign
+Tonga,Tonga,TON,1,Oceania,Polynesia,Nukuʻalofa,-21.1347,-175.2083,15471.4,105697,6695.142862,No,Sovereign
+India,India,IND,30,Asia,Southern Asia,New Delhi,28.6139,77.209,5205.8,1380004385,6503.948054,No,Sovereign
+Belize,Belize,BLZ,1,Americas,Central America,Belmopan,17.25,-88.7675,9614.8,397621,6457.636558,No,Sovereign
+Palestiina,Palestine,PSE,15,Asia,Western Asia,Ramallah,31.898043,35.204269,3155.6,5101416,5689.945334,No,Sovereign
+Honduras,Honduras,HND,64,Americas,Central America,Tegucigalpa,14.0942,-87.2067,9846.2,9904608,5420.234234,No,Sovereign
+Mauritaania,Mauritania,MRT,1,Africa,Western Africa,Nouakchott,18.0858,-15.9785,5635.5,4649660,5390.086099,No,Sovereign
+Nigeeria,Nigeria,NGA,8,Africa,Western Africa,Abuja,9.0556,7.4914,5786.9,206139587,5186.411583,No,Sovereign
+Myanmar (Birma),Myanmar,MMR,1,Asia,South-eastern Asia,Nay Pyi Taw,19.7475,96.115,7077.8,54409794,5123.825603,No,Sovereign
+Kõrgõzstan,Kyrgyzstan,KGZ,7,Asia,Central Asia,Bishkek,42.8667,74.5667,3812.5,6524191,4964.733306,Yes,Sovereign
+Pakistan,Pakistan,PAK,2,Asia,Southern Asia,Islamabad,33.6989,73.0369,4515.1,220892331,4812.889818,No,Sovereign
+Kenya,Kenya,KEN,4,Africa,Eastern Africa,Nairobi,-1.2864,36.8172,6834,53771300,4577.90522,No,Sovereign
+Kambodža,Cambodia,KHM,4,Asia,South-eastern Asia,Phnom Penh,11.5696,104.921,8347.1,16718971,4421.480611,No,Sovereign
+Kamerun,Cameroon,CMR,3,Africa,Central Africa,Yaoundé,3.8578,11.5181,6283.5,26545864,3867.51924,No,Sovereign
+Tadžikistan,Tajikistan,TJK,1,Asia,Central Asia,Dushanbe,38.5731,68.7864,3852.7,9537642,3858.197391,Yes,Sovereign
+Senegal,Senegal,SEN,1,Africa,Western Africa,Dakar,14.7319,-17.4572,6040.1,16743930,3502.820004,No,Sovereign
+Sambia,Zambia,ZMB,1,Africa,Eastern Africa,Lusaka,-15.4167,28.2833,8329.5,18383956,3457.610102,No,Sovereign
+Vanuatu,Vanuatu,VUT,2,Oceania,Melanesia,Port-Vila,-17.7333,168.3167,14532,307150,3010.855129,No,Sovereign
+Tansaania,Tanzania,TZA,1,Africa,Eastern Africa,Dar es Salaam,-6.8,39.2833,7477.4,59734213,2779.91029,No,Sovereign
+Mali,Mali,MLI,5,Africa,Western Africa,Bamako,12.6458,-7.9922,5861.1,20250834,2347.988174,No,Sovereign
+Burkina Faso,Burkina Faso,BFA,2,Africa,Western Africa,Ouagadougou,12.3686,-1.5275,5666.9,20903278,2274.016832,No,Sovereign
+Somaalia,Somalia,SOM,1,Africa,Eastern Africa,Mogadishu,2.0408,45.3425,6625,15893219,1245.743885,No,Sovereign
