@@ -47,7 +47,7 @@ name_target = df["Name and number of citizens"]
 name_target_label = "Name and number of citizens"
 
 
-# In[14]:
+# In[4]:
 
 
 # Creating scatter plot on a world map projection for # of estonian citizens across the world
@@ -80,7 +80,7 @@ fig.update_layout(title="Estonian citizens across the world")
 fig.show()
 
 
-# In[17]:
+# In[5]:
 
 
 fig = px.scatter(df, x=distance_label, y = target_label,
@@ -110,7 +110,7 @@ fig.update_layout(title="Number of Estonian citizens vs Distance between country
 fig.show()
 
 
-# In[19]:
+# In[6]:
 
 
 fig = px.scatter(df, x="GDP PPP per capita", y = target_label,
@@ -143,7 +143,7 @@ fig.update_layout(title="Number of Estonian citizens vs Country GDP PPP")
 fig.show()
 
 
-# In[30]:
+# In[7]:
 
 
 fig = px.scatter(df, y="GDP PPP per capita", x ="Distance between Capital and Tallinn (km)",
@@ -191,17 +191,13 @@ fig.update_layout(title="Number of Estonian citizens<br>Country GDP PPP vs Dista
 fig.show()
 
 
-# In[22]:
+# In[8]:
 
 
 # assessing number of Estonian citizens for countries in small countries (population <= 100k)
 
-# create column with ration between number of estonian citizens and country population
-
-df["Estonian citizen to country population percentage"] = 100 * df[target_label]/df["Population (2020)"]
-df2 = df
 # filter countries with population <= 100k
-df2 = df2[df2["Population (2020)"] <= 100000]
+df2 = df[df["Population (2020)"] <= 100000]
 
 fig = px.bar(df2, x="Name", y = target_label,
                  color = "Sub-region", # dividing data into sub-regions
@@ -225,22 +221,4 @@ fig.update_layout(
 
 
 fig.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
