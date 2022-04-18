@@ -74,7 +74,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[20]:
+# In[6]:
 
 
 df1 = df.query('Continent == "Europe"')
@@ -132,7 +132,7 @@ fig.update_layout(title="Estonian citizens across Europe",
 fig.show()
 
 
-# In[24]:
+# In[8]:
 
 
 df1 = df.query('Continent == "Americas"')
@@ -212,7 +212,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[22]:
+# In[12]:
 
 
 df1 = df.query('Continent == "Asia"')
@@ -230,7 +230,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[23]:
+# In[13]:
 
 
 df1 = df.query('Continent == "Africa"')
@@ -284,39 +284,6 @@ fig.show()
 # In[15]:
 
 
-# Creating scatter plot on a world map projection for # of estonian citizens across the world
-
-fig = go.Figure(go.Scattergeo(
-    text = df[target_label],
-        lat = df["Latitude (capital)"],
-        lon = df["Longitude (capital)"],
-        marker = dict(
-            size = df[target_label]**0.36, # scaling size for better visualisation
-            color = df[target_label]**0.36, # scaling color for better visualisation
-            colorscale = "Viridis_r",
-            colorbar_title = target_label,
-            colorbar_tickvals = np.array([1,10,100,1000,10000,50000])**0.36, # scaling color scale
-            colorbar_ticktext = np.array([1,10,100,1000,10000,50000])
-            )
-))
-
-fig.update_geos(
-    visible=False, resolution=50,
-    showcountries=True, projection_type="natural earth",
-    showland=True, landcolor="LightBlue"
-)
-
-fig.update_traces(customdata=np.stack((df["Name"], df[target_label]), axis=-1))
-fig.update_traces(hovertemplate='<b>%{customdata[0]}</b><br><br># of Estonian citizens: %{customdata[1]}<br><extra></extra>') 
-
-fig.update_layout(title="Estonian citizens across the world")
-
-fig.show()
-
-
-# In[16]:
-
-
 fig = px.scatter(df, x=distance_label, y = target_label,
                  color = "Continent", # dividing data into continents
                  log_y = True, # setting logarithmic axis for number of Estonian citizens for better visualisation
@@ -344,7 +311,7 @@ fig.update_layout(title="Number of Estonian citizens vs Distance between country
 fig.show()
 
 
-# In[17]:
+# In[16]:
 
 
 fig = px.scatter(df, x="GDP PPP per capita", y = target_label,
@@ -377,7 +344,7 @@ fig.update_layout(title="Number of Estonian citizens vs Country GDP PPP")
 fig.show()
 
 
-# In[18]:
+# In[17]:
 
 
 fig = px.scatter(df, y="GDP PPP per capita", x ="Distance between Capital and Tallinn (km)",
@@ -425,7 +392,7 @@ fig.update_layout(title="Number of Estonian citizens<br>Country GDP PPP vs Dista
 fig.show()
 
 
-# In[19]:
+# In[18]:
 
 
 # assessing number of Estonian citizens for countries in small countries (population <= 100k)
@@ -455,10 +422,4 @@ fig.update_layout(
 
 
 fig.show()
-
-
-# In[ ]:
-
-
-
 
