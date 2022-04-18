@@ -2,7 +2,7 @@
 https://awneto-basic.github.io/estonian_citizens_around_the_world/
 
 <!-- wp:paragraph -->
-This dataset lists the number of Estonian citizens living outside of Estonia, per country, as of 21st February 2022.
+This dataset lists the number of Estonian citizens living outside of Estonia, grouped by country, as of 21st February 2022.
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
