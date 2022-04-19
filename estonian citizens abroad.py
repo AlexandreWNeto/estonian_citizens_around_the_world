@@ -125,7 +125,6 @@ fig.update_layout(title="Estonian citizens across Europe",
                  geo = dict(
                      scope = "europe"
                  ),
-                  width = 1200, height = 1200,
                   margin = dict(t=25, l=0, r=0, b=25)
                  )
 
@@ -153,6 +152,46 @@ fig.show()
 # In[9]:
 
 
+# Creating scatter plot on a world map projection for # of estonian citizens across Europe
+df1 = df.query('Subregion == "South America"')
+fig = go.Figure(go.Scattergeo(
+    text = df1[target_label],
+    textfont=dict(color='black'),
+    lat = df1["Latitude (capital)"],
+    lon = df1["Longitude (capital)"],
+    marker = dict(
+            size = df1[target_label]**0.6, # scaling size for better visualisation
+            color = df1[target_label]**0.6, # scaling color for better visualisation
+            colorscale = "Viridis_r",
+            colorbar_title = target_label,
+            colorbar_tickvals = np.array([1,10,100,500])**0.6, # scaling color scale
+            colorbar_ticktext = np.array([1,10,100,500])
+            ),
+    mode="markers+text"
+))
+
+fig.update_geos(
+    visible=False, resolution=50,
+    showcountries=True, projection_type="natural earth",
+    showland=True, landcolor="LightBlue"
+)
+
+fig.update_traces(customdata=np.stack((df1["Name"], df1[target_label]), axis=-1))
+fig.update_traces(hovertemplate='<b>%{customdata[0]}</b><br><br># of Estonian citizens: %{customdata[1]}<br><extra></extra>') 
+
+fig.update_layout(title="Estonian citizens across South America",
+                 geo = dict(
+                     scope = "south america"
+                 ),
+                  margin = dict(t=25, l=0, r=0, b=25)
+                 )
+
+fig.show()
+
+
+# In[10]:
+
+
 colors_list = px.colors.qualitative.Plotly
 df1 = df.query('Continent == "Americas" & Subregion != "Northern America" & Subregion != "South America"')
 fig = px.treemap(df1, path = ["Continent","Subregion","Name"], values = target_label,
@@ -170,7 +209,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[10]:
+# In[11]:
 
 
 df1 = df.query('Continent == "Oceania"')
@@ -187,7 +226,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[11]:
+# In[12]:
 
 
 colors_list = px.colors.qualitative.Plotly
@@ -212,7 +251,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[12]:
+# In[13]:
 
 
 df1 = df.query('Continent == "Asia"')
@@ -230,7 +269,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[13]:
+# In[14]:
 
 
 df1 = df.query('Continent == "Africa"')
@@ -248,7 +287,7 @@ fig.update_layout(margin = dict(t=50, l=0, r=0, b=25))
 fig.show()
 
 
-# In[14]:
+# In[15]:
 
 
 # Creating scatter plot on a world map projection for # of estonian citizens across the world
@@ -281,7 +320,7 @@ fig.update_layout(title="Estonian citizens across the world")
 fig.show()
 
 
-# In[15]:
+# In[16]:
 
 
 fig = px.scatter(df, x=distance_label, y = target_label,
@@ -311,7 +350,7 @@ fig.update_layout(title="Number of Estonian citizens vs Distance between country
 fig.show()
 
 
-# In[16]:
+# In[17]:
 
 
 fig = px.scatter(df, x="GDP PPP per capita", y = target_label,
@@ -344,7 +383,7 @@ fig.update_layout(title="Number of Estonian citizens vs Country GDP PPP")
 fig.show()
 
 
-# In[17]:
+# In[18]:
 
 
 fig = px.scatter(df, y="GDP PPP per capita", x ="Distance between Capital and Tallinn (km)",
@@ -392,7 +431,7 @@ fig.update_layout(title="Number of Estonian citizens<br>Country GDP PPP vs Dista
 fig.show()
 
 
-# In[18]:
+# In[19]:
 
 
 # assessing number of Estonian citizens for countries in small countries (population <= 100k)
