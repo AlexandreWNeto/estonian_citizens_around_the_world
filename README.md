@@ -1,5 +1,5 @@
 # estonian_citizens_around_the_world
-Click here to access the Jupyter notebook of this study: [https://awneto-basic.github.io/estonian_citizens_around_the_world/](https://alexandrewneto.github.io/estonian_citizens_around_the_world/)
+To access the Jupyter notebook of this study, click here: [https://awneto-basic.github.io/estonian_citizens_around_the_world/](https://alexandrewneto.github.io/estonian_citizens_around_the_world/)
 
 ![image](https://github.com/AlexandreWNeto/estonian_citizens_around_the_world/assets/29670261/a3c449ec-c740-40cd-962b-5603fc3a8e05)
 
